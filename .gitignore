@@ -9,8 +9,8 @@
 *.userosscache
 *.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
+# Visual Studio Code
+.vscode
 
 # Build results
 [Dd]ebug/
@@ -23,6 +23,9 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -53,6 +56,8 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
+*.swp
+.DS_Store
 
 # StyleCop
 StyleCopReport.xml
