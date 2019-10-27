@@ -1,0 +1,6 @@
+https://hub.helm.sh/
+https://www.redhat.com/en/resources/cloud-native-container-design-whitepaper
+https://docs.microsoft.com/en-us/azure/dev-spaces/how-dev-spaces-works#run-your-code
+https://docs.microsoft.com/en-us/azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tooling
+https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-acr
+https://github.com/dapr/docs/tree/master/getting-started
