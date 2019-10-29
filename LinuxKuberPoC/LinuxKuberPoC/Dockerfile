@@ -4,9 +4,9 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 WORKDIR /src
-COPY ["LinuxKuberPoC/LinuxKuberPoC.csproj", "LinuxKuberPoC/"]
+COPY ["LinuxKuberPoC.csproj", "LinuxKuberPoC/"]
 
-RUN dotnet restore "LinuxKuberPoC/LinuxKuberPoC.csproj"
+RUN dotnet restore "LinuxKuberPoC.csproj"
 COPY . .
 WORKDIR "/src/LinuxKuberPoC"
 RUN dotnet build "LinuxKuberPoC.csproj" -c Release -o /app/build
