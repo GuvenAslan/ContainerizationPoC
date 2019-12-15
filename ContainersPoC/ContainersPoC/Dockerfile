@@ -7,7 +7,7 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.2-sdk-nanoserver-1803 AS build
 WORKDIR /src
-COPY ["ContainersPoC/ContainersPoC.csproj", "ContainersPoC/"]
+COPY ["ContainersPoC.csproj", "ContainersPoC/"]
 RUN dotnet restore "ContainersPoC/ContainersPoC.csproj"
 COPY . .
 WORKDIR "/src/ContainersPoC"
